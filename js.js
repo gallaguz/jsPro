@@ -87,3 +87,4 @@ cart.renderGoodsList ();
 
 document.querySelector ('#total').innerHTML = 'Всего товаров в каталоге на сумму: ' + cart.items.amount;
 
+
