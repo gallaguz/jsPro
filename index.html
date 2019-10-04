@@ -9,13 +9,39 @@
     </head>
     <body>
         <div id="container">
-            <h3>Lesson 2</h3>
-            <div id="cart"></div><span id="cartContent"></span>
+        <h3>Lesson 3</h3>
             <hr>
-            <div id="total"></div>
-            <hr>
-            <div id="catalog"></div>
-        </div>
+            <br>
+        <p>Собери свой гамбургер</p>
+        <label for="size">Резмер
+            <select name="size" id="size">
+                <option value="small" selected>Маленький</option>
+                <option value="big">Большой</option>
+            </select>
+        </label>
+
+        <label for="topping">Начинки
+            <select name="topping" id="topping">
+                <option value="cheese" selected>Сыр</option>
+                <option value="salad">Салат</option>
+                <option value="potato">Картофель</option>
+            </select>
+        </label>
+        <p>
+            <label for="spice">Специи
+                <input type="checkbox" class="stuffing" value="spice" id="spice">
+            </label>
+            <label for="mayonnaise">Майонез
+                <input type="checkbox" class="stuffing" value="mayonnaise" id="mayonnaise">
+            </label>
+        </p>
+
+        <div id="result-size"></div>
+        <div id="result-topping"></div>
+        <div id="result-stuffing"></div>
+        <div id="result-calorie"></div>
+        <div id="result-total"></div>
+    </div>
 
   </body>
 </html>
